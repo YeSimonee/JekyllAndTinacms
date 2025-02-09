@@ -34,6 +34,15 @@ plugins:
 sass:
   sass_dir: _sass
 
+include:
+  - content
+  - uploads 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+livereload: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
