@@ -9,8 +9,8 @@ const branch =
 
 export default defineConfig({
   branch: "main", // Cambialo in "master" se il tuo branch principale è master
-  clientId: "sandbox", // Usa "sandbox" per l'uso locale
-  token: "", // Nessun token necessario in locale
+  clientId: "efca281a-b889-4a77-b391-91b8b9355e02", // Usa "sandbox" per l'uso locale
+  token: "397f45c373c4776a6285f88d3b0cbe63854bba1a", // Nessun token necessario in locale
 
   build: {
     outputFolder: "admin",
