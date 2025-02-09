@@ -10,7 +10,7 @@ const branch =
 export default defineConfig({
   branch: "main", // Cambialo in "master" se il tuo branch principale è master
   clientId: "efca281a-b889-4a77-b391-91b8b9355e02", // Usa "sandbox" per l'uso locale
-  token: "397f45c373c4776a6285f88d3b0cbe63854bba1a", // Nessun token necessario in locale
+  token: "981b5f02b03c8a378b5f7062e41eb5e9d7c3f481", // Nessun token necessario in locale
 
   build: {
     outputFolder: "admin",
@@ -113,11 +113,4 @@ export default defineConfig({
       },
     ],
   },
-  
-    // 🔥 Aggiungi questa parte per abilitare il visual editing
-    cmsCallback: (cms) => {
-      cms.flags.set("visualEditing", true);
-      return cms;
-    },
-
 });

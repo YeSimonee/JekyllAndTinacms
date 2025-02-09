@@ -3,7 +3,7 @@ layout: default
 hero_image: /assets/img/Tor vergata/MacroariaScienze1.jpg
 permalink: /
 title: Home
-hero_title: 'DOVE SIAMO ! ciao '
+hero_title: DOVE SIAMO !!
 hero_text: >
   Questo è una modifica. La didattica dei corsi di laurea triennale e magistrale
   in Informatica ha luogo all’interno del Campus Universitario di Tor Vergata,
