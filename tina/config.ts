@@ -22,6 +22,11 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
+
+  cmsCallback: (cms) => {
+    cms.flags.set("useGitHubAuthRedirect", true); // 🔥 Permette di autenticarsi con GitHub
+    return cms;
+  },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
 
   schema:{
